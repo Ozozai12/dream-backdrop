@@ -1,0 +1,44 @@
+.welcome {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.choose {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.optionBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.optionImage {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.optionName {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}

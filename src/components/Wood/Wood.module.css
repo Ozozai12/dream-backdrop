@@ -1,19 +1,6 @@
-.welcome {
+.paletteEntry {
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-size: 22px;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.choose {
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-size: 18px;
@@ -21,21 +8,19 @@
     font-style: normal;
 }
 
-.optionBox {
+.paletteList {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
 }
 
-.optionImage {
-    display: block;
+.paletteItem {
+    margin-bottom: 20px;
 }
 
-.optionName {
+.itemName {
     display: inline-block;
     margin-top: 8px;
     font-family: "Playfair Display", serif;

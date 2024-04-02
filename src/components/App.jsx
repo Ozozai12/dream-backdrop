@@ -1,7 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 
 import { Layout } from './Layout';
-import {General} from './General/General'
+import { GeneralPage } from '../../pages/GeneralPage';
+import { WoodPage } from '../../pages/WoodPage';
+import { ConcretePage } from '../../pages/ConcretePage';
 
 import './App.css'
 
@@ -11,11 +13,11 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<General />} />
-          {/* <Route path='/wood' element={<Wood />} /> */}
-          {/* <Route path='/concrete' element={<Concrete />} /> */}
+          <Route index element={<GeneralPage />} />
+          <Route path='/wood' element={<WoodPage />} />
+          <Route path='/concrete' element={<ConcretePage />} />
           {/* <Route path='*' element={<NotFound/>} /> */}
-          </Route>
+        </Route>
       </Routes>
     </>
   )

@@ -1,6 +1,6 @@
 .paletteEntry {
     display: inline-block;
-    margin: 0 20px 20px 20px;
+    margin: 10px 20px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-size: 18px;
@@ -8,11 +8,11 @@
     font-style: normal;
 }
 
-.paletteList {
+.regularBox {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 20px;
 }
 
@@ -20,9 +20,50 @@
     margin-bottom: 20px;
 }
 
+.paletteItem:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.paletteImage {
+    border-radius: 10px;
+}
+
 .itemName {
     display: inline-block;
     margin-top: 8px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bestsellerBox {
+    background-color: #94FF94;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.articleBox {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    width: 23px;
+    height: 23px;
+    margin-right: 8px;
+}
+
+.bestsellerArticle {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-size: 16px;

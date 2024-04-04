@@ -14,15 +14,14 @@ export const Bestseller = ({ items }) => {
                     <span className={css.bestsellerArticle}>Бестселлери</span>
                 </div>
 
-                <ul>
+                <ul className={css.regularBox}>
                     {items.map((backdrop) => {
                         if (backdrop.bs === true) {
                             return (
                                 <li key={backdrop.id} className={css.paletteItem}>
-                                    <img src={backdrop.src} alt={backdrop.name} className={css.paletteImage} />
+                                    <img src={backdrop.src} alt={backdrop.name} className={css.paletteImage} loading="lazy" />
                                     <span className={css.itemName}>{backdrop.name}</span>
-                                </li>
-                            )
+                                </li>)
                         }
                     })}
                 </ul>

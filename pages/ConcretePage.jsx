@@ -1,9 +1,11 @@
-import { Concrete } from "../src/components/Concrete/Concrete"
+import { Palette } from "../src/components/Palette/Palette"
+
+import { concrete } from '../src/items/concrete'
 
 export const ConcretePage = () => {
     return (
         <>
-        <Concrete/>
+            <Palette items={concrete} entry="Палітра фонів з декоративної штукатурки" />
         </>
     )
 }

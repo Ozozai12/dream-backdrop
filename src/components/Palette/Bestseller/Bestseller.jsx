@@ -1,3 +1,5 @@
+import ProgressiveImage from "react-progressive-graceful-image";
+
 import { IconContext } from 'react-icons';
 import { CiStar } from "react-icons/ci";
 
@@ -19,7 +21,9 @@ export const Bestseller = ({ items }) => {
                         if (backdrop.bs === true) {
                             return (
                                 <li key={backdrop.id} className={css.paletteItem}>
-                                    <img src={backdrop.src} alt={backdrop.name} className={css.paletteImage} loading="lazy" />
+                                    <ProgressiveImage src={backdrop.src} placeholder={backdrop.src}>
+                                        {(src) => <img src={src} alt={backdrop.name} loading="lazy" />}
+                                    </ProgressiveImage>
                                     <span className={css.itemName}>{backdrop.name}</span>
                                 </li>)
                         }

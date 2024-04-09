@@ -22,7 +22,7 @@ export const Bestseller = ({ items }) => {
                             return (
                                 <li key={backdrop.id} className={css.paletteItem}>
                                     <ProgressiveImage src={backdrop.src} placeholder={backdrop.src}>
-                                        {(src) => <img src={src} alt={backdrop.name} loading="lazy" />}
+                                        {(src) => <img src={src} alt={backdrop.name} className={css.paletteImage} loading="lazy" />}
                                     </ProgressiveImage>
                                     <span className={css.itemName}>{backdrop.name}</span>
                                 </li>)

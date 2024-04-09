@@ -5,11 +5,11 @@ import css from './General.module.css'
 export const General = () => {
     return (
         <>
-            <div>
+            <main>
                 <span className={css.welcome}>Ласкаво просимо <br /> до палітри fotofon.dream</span>
                 <br />
                 <span className={css.choose}>Оберіть матеріал</span>
-                <Link to='/wood'>
+                <Link to='/wood' className={css.optionLink}>
                     <div className={css.optionBox}>
                         <img src='https://res.cloudinary.com/dmadhdzzm/image/upload/v1711972069/fotofon.dream/ns7luzaf1bzvhljwpggs.jpg'
                             alt='wood backdrop example'
@@ -26,7 +26,7 @@ export const General = () => {
                         <span className={css.optionName}>Бетонні фони</span>
                     </div>
                 </Link>
-            </div>
+            </main>
         </>
     )
 }

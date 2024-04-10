@@ -25,9 +25,10 @@ export const wood = [
     },
     {
         id: 5,
-        name: 'Обпалений',
-        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712136443/fotofon.dream/wood/seared_ffno3m.jpg'
+        name: "Старий дуб",
+        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712744001/fotofon.dream/wood/DSC01356_xsqqk2.jpg'
     },
+    
     {
         id: 6,
         name: 'Попіл',
@@ -52,5 +53,10 @@ export const wood = [
         id: 10,
         name: "Обпалений м'ятний",
         src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712136443/fotofon.dream/wood/burntmint_m5wsyr.jpg'
+    },
+    {
+        id: 11,
+        name: 'Обпалений',
+        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712136443/fotofon.dream/wood/seared_ffno3m.jpg'
     },
 ]

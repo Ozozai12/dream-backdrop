@@ -1,34 +1,67 @@
 .backdrop {
+    position: absolute;
     display: flex;
     justify-content: center;
     width: 100vw;
     height: 100vh;
     background-color: rgb(0, 0, 0, 50%);
-    z-index: 100;
+    z-index: 1;
+}
+
+.pricesBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100vw - 120px);
+    height: calc(100vh - 100px);
+    z-index: 2;
 }
 
 .closeBtn {
     position: absolute;
-    top: 53px;
-    right: 64px;
-    background-color: none;
-    border: none;
-    color: none;
+    top: 20px;
+    right: 20px;
 }
 
-.menuList {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.paletteEntry {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .closeIcon {
     width: 35px;
     height: 35px;
-    color: #f8f8f8;
+    color: #000;
 }
 
 .closeIcon:active {
     color: #555555;
+}
+
+.paletteItem {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.itemText {
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 8px;
 }

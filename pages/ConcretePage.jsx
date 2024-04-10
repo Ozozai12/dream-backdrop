@@ -1,3 +1,4 @@
+import { BackButton } from "../src/components/BackButton/BackButton"
 import { Palette } from "../src/components/Palette/Palette"
 
 import { concrete } from '../src/items/concrete'
@@ -5,7 +6,8 @@ import { concrete } from '../src/items/concrete'
 export const ConcretePage = () => {
     return (
         <>
-            <Palette items={concrete} entry="Палітра фонів з декоративної штукатурки" />
+            <BackButton />
+            <Palette items={concrete} entry=" декоративної штукатурки" />
         </>
     )
 }

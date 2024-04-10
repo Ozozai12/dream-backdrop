@@ -1,6 +1,7 @@
 import ProgressiveImage from "react-progressive-graceful-image";
 import { useState } from 'react';
 
+import { BackButton } from '../BackButton/BackButton'
 import { Bestseller } from './Bestseller/Bestseller';
 import { Button } from '../Button/Button'
 import { Prices } from "../Prices/Prices";
@@ -23,6 +24,7 @@ export const Palette = ({ entry, items }) => {
     return (
         <>
             {isOpen && <Prices onPricesClose={closeMenu} material={entry} />}
+            <BackButton />
             <>
                 <span className={css.paletteEntry}>Палітра фотофонів з{entry}</span>
                 <Button onPricesOpen={openMenu} />

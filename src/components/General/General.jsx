@@ -6,7 +6,7 @@ export const General = () => {
     return (
         <>
             <main>
-                <span className={css.welcome}>Ласкаво просимо <br /> до палітри fotofon.dream</span>
+                <span className={css.welcome}>Палітра fotofon.dream</span>
                 <br />
                 <span className={css.choose}>Оберіть матеріал</span>
                 <Link to='/wood' className={css.optionLink}>
@@ -14,7 +14,7 @@ export const General = () => {
                         <img src='https://res.cloudinary.com/dmadhdzzm/image/upload/v1711972069/fotofon.dream/ns7luzaf1bzvhljwpggs.jpg'
                             alt='wood backdrop example'
                             className={css.optionImage} />
-                        <span className={css.optionName}>Дерев'яні фони</span>
+                        <span className={css.optionName}>Фони з натурального дерева</span>
                     </div>
                 </Link>
                 <Link to='/concrete'>
@@ -23,7 +23,8 @@ export const General = () => {
                             alt='concrete backdrop example'
                             className={css.optionImage}
                         />
-                        <span className={css.optionName}>Бетонні фони</span>
+                        <span className={css.optionName}>Фони з декоративних штукатурок <br />
+                            (бетон, мармур, молдінги)</span>
                     </div>
                 </Link>
             </main>

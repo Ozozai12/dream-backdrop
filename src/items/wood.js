@@ -36,7 +36,7 @@ export const wood = [
     },
     {
         id: 7,
-        name: 'Вугільно чорний',
+        name: 'Глибокий чорний',
         src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712136439/fotofon.dream/wood/jetblack_ujjebx.jpg'
     },
     {

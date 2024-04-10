@@ -31,6 +31,7 @@ export const Prices = ({ onPricesClose, material }) => {
                             </li>)
                     })}
                 </ul>
+                <span className={css.afterText}>*інші розміри також виготовляємо, для прорахунку вартості напишіть в дірект Instagram</span>
             </div>
 
         </div>

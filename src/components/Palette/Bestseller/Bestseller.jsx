@@ -1,9 +1,10 @@
-import ProgressiveImage from "react-progressive-graceful-image";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { IconContext } from 'react-icons';
 import { CiStar } from "react-icons/ci";
 
 import css from './Bestseller.module.css'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export const Bestseller = ({ items }) => {
     return (
@@ -21,9 +22,13 @@ export const Bestseller = ({ items }) => {
                         if (backdrop.bs === true) {
                             return (
                                 <li key={backdrop.id} className={css.paletteItem}>
-                                    <ProgressiveImage src={backdrop.src} placeholder={backdrop.src}>
-                                        {(src) => <img src={src} alt={backdrop.name} className={css.paletteImage} loading="lazy" />}
-                                    </ProgressiveImage>
+                                    <LazyLoadImage
+                                        alt={backdrop.name}
+                                        className={css.paletteImage}
+                                        src={backdrop.src}
+                                        effect="blur"
+
+                                    />
                                     <span className={css.itemName}>{backdrop.name}</span>
                                 </li>)
                         }

@@ -40,6 +40,7 @@ export const Palette = ({ entry, items }) => {
                                         className={css.paletteImage}
                                         src={backdrop.src}
                                         effect="blur"
+                                        loading='lazy'
                                     />
                                     <span className={css.itemName}>{backdrop.name}</span>
                                 </li>)

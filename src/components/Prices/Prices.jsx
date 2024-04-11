@@ -31,7 +31,7 @@ export const Prices = ({ onPricesClose, material }) => {
                             </li>)
                     })}
                 </ul>
-                <span className={css.afterText}>*інші розміри також виготовляємо, для прорахунку вартості напишіть в дірект Instagram</span>
+                <span className={css.afterText}>*інші розміри також виготовляємо, для прорахунку вартості <a href="https://www.instagram.com/fotofon.dream/" className={css.instaLink}>напишіть в дірект</a>  Instagram</span>
             </div>
 
         </div>

@@ -58,15 +58,24 @@
 
 .itemText {
     display: inline-block;
-    font-family: "Playfair Display", serif;
+    font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
-    font-size: 18px;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px;
     margin-bottom: 8px;
 }
 
 .afterText {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 12px;
     margin-top: 20px;
+}
+
+.instaLink {
+    text-decoration: underline;
+    color: #000;
 }

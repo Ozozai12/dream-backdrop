@@ -16,8 +16,9 @@
 
 .backText {
     color: #bebebe;
+    font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
-    font-size: 18px;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px;
 }

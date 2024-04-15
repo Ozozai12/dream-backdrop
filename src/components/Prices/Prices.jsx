@@ -1,4 +1,5 @@
 import { IconContext } from "react-icons";
+import { Transition } from 'react-transition-group';
 
 import { CgClose } from "react-icons/cg";
 
@@ -16,6 +17,9 @@ export const Prices = ({ onPricesClose, material }) => {
     return (
         <div className={css.backdrop}>
             <div className={css.pricesBox}>
+
+
+
                 <span className={css.closeBtn} onClick={onPricesClose}>
                     <IconContext.Provider value={{ className: css.closeIcon }}>
                         <CgClose />

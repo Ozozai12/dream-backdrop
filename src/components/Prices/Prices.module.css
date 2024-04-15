@@ -22,6 +22,18 @@
     width: calc(100vw - 120px);
     height: calc(100vh - 100px);
     z-index: 2;
+    animation-name: pricesShow;
+    animation-duration: 250ms;
+}
+
+@keyframes pricesShow {
+    0% {
+        scale: 0.9;
+    }
+
+    100% {
+        scale: 1;
+    }
 }
 
 .closeBtn {

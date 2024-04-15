@@ -22,3 +22,9 @@
     font-style: normal;
     font-size: 18px;
 }
+
+@media screen and (min-width: 1200px) {
+    .buttonBox {
+        margin-left: 40px;
+    }
+}

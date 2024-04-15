@@ -1,5 +1,4 @@
 import { IconContext } from "react-icons";
-import { Transition } from 'react-transition-group';
 
 import { CgClose } from "react-icons/cg";
 

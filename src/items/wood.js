@@ -14,7 +14,7 @@ export const wood = [
     {
         id: 3,
         name: 'Античний коричневий',
-        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712136438/fotofon.dream/wood/antique_cfn8dc.jpg',
+        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1713193770/fotofon.dream/wood/IMG_4959_tlw8ql.jpg',
         bs: true
     },
     {

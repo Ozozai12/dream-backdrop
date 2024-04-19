@@ -22,14 +22,16 @@ export const Palette = ({ entry, items }) => {
         document.body.style.overflow = 'auto'
     };
 
+    console.log()
+
     return (
         <>
             {isOpen && <Prices onPricesClose={closeMenu} material={entry} />}
             <BackButton />
             <>
-                <span className={css.paletteEntry}>Палітра фотофонів з{entry}</span>
+                <span className={css.paletteEntry}>Палітра {entry}</span>
                 <Button onPricesOpen={openMenu} />
-                <Bestseller items={items} />
+                {items[0].id !== 't1' ? <Bestseller items={items} /> : ''}
                 <ul className={css.regularBox}>
                     {items.map((backdrop) => {
                         if (backdrop.bs !== true) {

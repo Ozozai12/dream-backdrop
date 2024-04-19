@@ -25,8 +25,8 @@ export const concrete = [
     },
     {
         id: 5,
-        name: "Гроза",
-        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712231627/fotofon.dream/concrete/IMG_0574_msxudq.jpg',
+        name: "Мінімалістичний білий",
+        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1713519691/fotofon.dream/concrete/IMG_5557_af6ct6.jpg',
         bs: false
     },
     {
@@ -57,6 +57,12 @@ export const concrete = [
         id: 10,
         name: "Білий бетон",
         src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712231622/fotofon.dream/concrete/IMG_0579_dxn43c.jpg',
+        bs: false
+    },
+    {
+        id: 11,
+        name: "Гроза",
+        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712231627/fotofon.dream/concrete/IMG_0574_msxudq.jpg',
         bs: false
     },
 ]

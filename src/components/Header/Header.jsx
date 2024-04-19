@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import { RxHamburgerMenu } from 'react-icons/rx'
+import { FaInstagram } from "react-icons/fa";
 import { IconContext } from 'react-icons'
 
 import css from './Header.module.css'
@@ -12,9 +12,13 @@ export const Header = () => {
         <Link to='/'>
           <span className={css.logo}>Fotofon.Dream</span>
         </Link>
-        <IconContext.Provider value={{ className: css.burger }}>
-          <RxHamburgerMenu />
-        </IconContext.Provider>
+        <a href="https://www.instagram.com/fotofon.dream/"
+          target="_blank"
+          rel="noopener noreferrer nofollow">
+          <IconContext.Provider value={{ className: css.instagram }}>
+            <FaInstagram />
+          </IconContext.Provider>
+        </a>
       </header>
     </>
   )

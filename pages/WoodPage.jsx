@@ -5,7 +5,7 @@ import { wood } from '../src/items/wood'
 export const WoodPage = () => {
     return (
         <>
-            <Palette items={wood} entry=" натуральної деревини" />
+            <Palette items={wood} entry=" фотофонів з натуральної деревини" />
         </>
     )
 }

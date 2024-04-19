@@ -36,6 +36,18 @@ export const General = () => {
                                 (бетон, мармур, молдінги)</span>
                         </div>
                     </Link>
+                    <Link to='/trays'>
+                        <div className={css.optionBox}>
+                            <LazyLoadImage
+                                alt='tray example'
+                                className={css.optionImage}
+                                src='https://res.cloudinary.com/dmadhdzzm/image/upload/v1713520502/fotofon.dream/IMG_7419_ub7x2n.jpg'
+                                effect="blur"
+                                loading='lazy'
+                            />
+                            <span className={css.optionName}>Дерев'яні таці</span>
+                        </div>
+                    </Link>
                 </div>
 
             </main>

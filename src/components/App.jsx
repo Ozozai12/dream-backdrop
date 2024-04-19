@@ -4,6 +4,7 @@ import { Layout } from './Layout';
 import { GeneralPage } from '../../pages/GeneralPage';
 import { WoodPage } from '../../pages/WoodPage';
 import { ConcretePage } from '../../pages/ConcretePage';
+import { TraysPage } from '../../pages/TraysPage';
 
 import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<GeneralPage />} />
           <Route path='/wood' element={<WoodPage />} />
           <Route path='/concrete' element={<ConcretePage />} />
+          <Route path='/trays' element={<TraysPage />} />
           {/* <Route path='*' element={<NotFound/>} /> */}
         </Route>
       </Routes>

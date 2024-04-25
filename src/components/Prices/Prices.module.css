@@ -65,7 +65,7 @@
 .paletteItem {
     display: flex;
     justify-content: space-between;
-    width: 180px;
+    width: 200px;
 }
 
 .itemText {

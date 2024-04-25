@@ -10,7 +10,11 @@ export const Prices = ({ onPricesClose, material }) => {
     const optionPrices = (material) => {
         if (material === ' декоративної штукатурки') {
             return options.optionsConcrete
-        } else return options.optionsWood
+        }
+        if (material === ' таць із дерева') {
+            return options.optionsTrays
+        }
+        else return options.optionsWood
     }
 
     return (
@@ -24,7 +28,8 @@ export const Prices = ({ onPricesClose, material }) => {
                         <CgClose />
                     </IconContext.Provider>
                 </span>
-                <span className={css.paletteEntry}>Ціни на фотофони з {material}</span>
+
+                <span className={css.paletteEntry}>Ціни {material === ' таць із дерева' ? '' : 'на'} {material}</span>
                 <ul>
                     {optionPrices(material).map((option) => {
                         return (

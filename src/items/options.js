@@ -59,4 +59,17 @@ const optionsConcrete = [
     },
 ]
 
-export default {optionsConcrete, optionsWood}
+const optionsTrays = [
+    {
+        id: "t1",
+        size: "Таця окремо",
+        price: 600
+    },
+    {
+        id: "t2",
+        size: "З фотофоном",
+        price: 500
+    },
+]
+
+export default {optionsConcrete, optionsWood, optionsTrays}

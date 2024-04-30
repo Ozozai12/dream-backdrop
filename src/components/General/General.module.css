@@ -37,9 +37,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    margin-bottom: 20px;
-
 }
 
 .optionImage {
@@ -51,7 +48,6 @@
     display: inline-block;
     margin-top: 8px;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;

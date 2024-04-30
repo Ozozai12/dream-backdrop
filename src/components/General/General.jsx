@@ -23,7 +23,7 @@ export const General = () => {
                             <span className={css.optionName}>Фони з натурального дерева</span>
                         </div>
                     </Link>
-                    <Link to='/concrete'>
+                    <Link to='/concrete' className={css.optionLink}>
                         <div className={css.optionBox}>
                             <LazyLoadImage
                                 alt='concrete backdrop example'
@@ -36,7 +36,7 @@ export const General = () => {
                                 (бетон, мармур, молдінги)</span>
                         </div>
                     </Link>
-                    <Link to='/trays'>
+                    <Link to='/trays' className={css.optionLink}>
                         <div className={css.optionBox}>
                             <LazyLoadImage
                                 alt='tray example'

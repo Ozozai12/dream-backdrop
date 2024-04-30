@@ -59,4 +59,9 @@ export const wood = [
         name: 'Обпалений',
         src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1712136443/fotofon.dream/wood/seared_ffno3m.jpg'
     },
+    {
+        id: 12,
+        name: "Кам'яне дерево",
+        src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1714474457/fotofon.dream/wood/38AB1B86-9D0D-4214-AE14-071E32D0BDB8_1_qzlyal.jpg'
+    },
 ]

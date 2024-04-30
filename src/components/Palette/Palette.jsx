@@ -45,6 +45,7 @@ export const Palette = ({ entry, items }) => {
                                         loading='lazy'
                                     />
                                     <span className={css.itemName}>{backdrop.name}</span>
+                                    <span className={css.itemNotice}>{backdrop.notice || ''}</span>
                                 </li>)
                         }
                     })}

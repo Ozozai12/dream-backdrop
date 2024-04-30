@@ -69,7 +69,8 @@ export const concrete = [
         id: 12,
         name: "Шоколад",
         src: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1714474512/fotofon.dream/concrete/713F467D-19B9-49EF-A4B1-CDB1F14E8544_zjktpl.jpg',
-        bs: false
+        bs: false,
+        notice: "(можливий колір, який ви самі оберете)"
     },
     {
         id: 13,

@@ -8,7 +8,7 @@ import css from './Prices.module.css'
 
 export const Prices = ({ onPricesClose, material }) => {
     const optionPrices = (material) => {
-        if (material === ' декоративної штукатурки') {
+        if (material === ' фотофонів з декоративної штукатурки') {
             return options.optionsConcrete
         }
         if (material === ' таць із дерева') {
@@ -29,7 +29,7 @@ export const Prices = ({ onPricesClose, material }) => {
                     </IconContext.Provider>
                 </span>
 
-                <span className={css.paletteEntry}>Ціни {material === ' таць із дерева' ? '' : 'на'} {material}</span>
+                <span className={css.paletteEntry}>Ціни  {material}</span>
                 <ul>
                     {optionPrices(material).map((option) => {
                         return (
